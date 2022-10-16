@@ -20,12 +20,16 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!-- Spring Web -->
+        <!-- Spring Web
+        기본적으로 스프링을 활용한 웹프로그래밍을 하기 위한 라이브러리
+        -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- Spring test -->
+        <!-- Spring test
+        단위 테스트를 하기 위한 라이브러리
+           -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -39,7 +43,9 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Gson -->
+        <!-- Gson
+        json데이터 처리를 위한 라이브러리
+        -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>

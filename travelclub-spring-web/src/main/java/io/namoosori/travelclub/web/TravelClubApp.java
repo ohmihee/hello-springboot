@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TravelClubApp {
 
     public static void main(String[] args) {
+        System.out.println("test====s");
         SpringApplication.run(TravelClubApp.class);
     }
 }
